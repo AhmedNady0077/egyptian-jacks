@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+
+    "baseUrl": ".",
+
+    "paths": {
+      "@/*": ["apps/web/src/*"],
+      "@engine/*": ["packages/game-engine/src/*"],
+      "@shared/*": ["packages/shared/src/*"]
+    },
+
+    "ignoreDeprecations": "6.0"
+  }
+}
